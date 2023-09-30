@@ -3,12 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <context-param>
+        <param-name>cacheEnabled</param-name>
+        <param-value>false</param-value>
+    </context-param>
     <servlet>
         <servlet-name>MeuServlet</servlet-name>
         <servlet-class>com.example.servlet.MeuServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MeuServlet</servlet-name>
-        <url-pattern>/meuservlet</url-pattern> <!-- Escolha um URL pattern de sua preferência -->
+        <url-pattern>/user</url-pattern> <!-- Escolha um URL pattern de sua preferência -->
     </servlet-mapping>
 </web-app>
