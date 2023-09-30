@@ -48,7 +48,8 @@ public class ClientRepository {
         String sql = "SELECT * FROM cliente WHERE nome = '" + name + "'";
 
         PreparedStatement stmt = conn.prepareStatement(sql);
-
+        System.out.println(stmt);
+        
         ResultSet rst = stmt.executeQuery();
 
         while (rst.next()) {
