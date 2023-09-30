@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <servlet-name>MeuServlet</servlet-name>
-        <servlet-class>com.example.servlet.MeuServlet</servlet-class>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>com.example.servlet.ClientServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>MeuServlet</servlet-name>
-        <url-pattern>/meuservlet</url-pattern> <!-- Escolha um URL pattern de sua preferência -->
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/client</url-pattern> <!-- Escolha um URL pattern de sua preferência -->
     </servlet-mapping>
 </web-app>
