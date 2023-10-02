@@ -25,7 +25,6 @@ public class ConnectionDb {
                 conn.setAutoCommit(false);
             }
         } catch (Exception e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
     }
